@@ -25,7 +25,7 @@ cls[21] = "the Driver";
 cls[22] = "the Sneak";
 cls[23] = "the Planner";
 cls[24] = "the Muscle";
-cls[25] = "Antiquarian";
+cls[25] = "an Antiquarian";
 cls[26] = "an Explorer";
 cls[27] = "a Thespian";
 cls[28] = "a Foriegn Relations Expert";
@@ -49,9 +49,17 @@ cls[45] = "Dillusional";
 cls[46] = "Deranged";
 cls[47] = "a Maniac";
 cls[48] = "a Lunatic";
+cls[50] = "a Tank";
+cls[51] = "a Healer";
+cls[52] = "a Damage Dealer";
+cls[53] = "a Support";
+cls[54] = "a Buffer";
+cls[55] = "a Debuffer";
+cls[56] = "an Anomaly";
+cls[57] = "a Commoner";
 
 function myFunction(){
-  var x = Math.floor(Math.random() * 49);
+  var x = Math.floor(Math.random() * 58);
   var text = document.getElementById('class');
   text.innerHTML = "you are " + cls[x] + "!";
   text.style.fontSize = "300%";
